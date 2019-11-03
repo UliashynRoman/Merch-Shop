@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ELECTROPEREDACHI - Магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div id="navbar-area">
+        <div class="container ">
+            <ul class="navbar-list">
+
+                <li class="submenu" id="submenu">
+                    <img src="img/Icon Cart.png" id="img-cart">
+                    <div id="shopping-cart">
+                        <table id="cart-content" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Зображення</th>
+                                    <th>Назва</th>
+                                    <th>Сума: </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <div id="buttons_position">
+                            <a id="clear-cart" class="button u-full-width clear">Видалити все</a>
+                            <a href="https://t.me/joinchat/AAAAAFPRsfF15_ZYGrDpMw" target="_blank" id="buy-cart" class="button u-full-width buy ">Купити</a> <!-- open-modal -->
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item nir">
+                    <a class="navbar-link koko" href="#">ELECTROPEREDACHI</a>
+                </li>
+                <li class="navbar-item-rigth">
+                    <a class="navbar-link-right li-a" href="#footer">Контакти</a>
+                </li>
+                <li class="navbar-item-rigth">
+                    <a class="navbar-link-right li-a" target="_blank" href="https://electroperedachi.com/">Офіційна сторінка</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="container" id="headr-marg">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="one-half column header-half">
+                    <img class="people-half " src="img/GA.jpg">
+                </div>
+                <div class="one-half column" id="border-right"><!-- "
+                 -->
+                    <div class="to-center">
+                        <h1 >ОФІЦІЙНИЙ МАГАЗИН</h1>
+                        <!--  Label Name -->
+                        <!-- <h4 >ELECTROPEREDACHI</h4> -->
+                        <h4 >ОБРАНІ ВАМИ.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%; background-color: white;">
+        <div id="product-list" class="container">
+            <div class="row" id="body-heading">
+                <h1 class="heading u-pull-left">Футболки</h1>
+            </div>
+            <div class="row">
+                <div class="four columns block">
+                    <div class="card">
+                        <img src="img/cr_red_white.png" class="card-img">
+                    </div>
+                    <div class="info-card">
+                        <h4>SYNTHWAVE</h4>
+                        <p>CRYSTAL NINJA</p>
+                        <p class="price">Ціна<span class="u-pull-right ">380 ₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Додати до кошика</a>
+                    </div>
+                </div>
+                <!--.card-->
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/termonator.png" id="NIMG" class="card-img">
+                    </div>
+                    <div class="info-card">
+                        <h4>SYNTHWAVE</h4>
+                        <p>CRYSTAL NINJA</p>
+                        <p class="price">Ціна<span class="u-pull-right ">400 ₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Додати до кошика</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/cr_violet.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>SYNTHWAVE</h4>
+                        <p>CRYSTAL NINJA</p>
+                        <p class="price">Ціна<span class="u-pull-right ">380 ₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Додати до кошика</a>
+                    </div>
+                </div>
+            </div>
+            <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/synth_white.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>SYNTHWAVE</h4>
+                        <p>Колекція "CRYSTAL NINJA"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Додати до кошика</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/electroperedachi_red.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>ELECTROPEREDACHI</h4>
+                        <p>Колекція "ГОЛОВНИЙ ЛЕЙБЛ"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Додати до кошика</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/synth_blue.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>SYNTHWAVE</h4>
+                        <p>Колекція "CRYSTAL NINJA"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Додати до кошика</a>
+                    </div>
+                </div>
+            </div>
+            <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/electroperedachi_green.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>ELECTROPEREDACHI</h4>
+                        <p>Колекція "ГОЛОВНИЙ ЛЕЙБЛ"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Додати до кошика</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/electroperedachi_white.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>ELECTROPEREDACHI</h4>
+                        <p>Колекція "ГОЛОВНИЙ ЛЕЙБЛ"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Додати до кошика</a>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/electroperedachi_black.png" id="NIMG" class="card-img">
+                    </div>
+                    <!--.card-->
+                    <div class="info-card">
+                        <h4>ELECTROPEREDACHI</h4>
+                        <p>Колекція "ГОЛОВНИЙ ЛЕЙБЛ"</p>
+                        <p class="price">Ціна<span class="u-pull-right ">349₴</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Додати до кошика</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row" id="border-left-down">
+                <div class="four columns"><!-- id="border-left-down" -->
+                        <nav id="primary" class="menu" >
+                            <a class="link" href="#">Співпраця</a>
+                            <a class="link" href="#">Пропозиціі</a>
+                            <a class="link"  href="#">Допомога</a>
+                        </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secondary" class="menu">
+                        <a  href="https://www.instagram.com/electroperedachi/" target="_blank">Instagram</a>
+                        <a  href="https://www.facebook.com/electroperedachi/" target="_blank">Facebook</a>
+                        <a  href="https://t.me/electroperedachi_team" target="_blank">Telegram Community</a>
+                    </nav>
+            </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="js/electroperedachi_label.js"></script> -->
+    <script src="evl_js/new_add_delete.js"></script>
+    <script src="evl_js/modal.js"></script>
+    <script src="evl_js/scroll.js"></script>
+    <script src="evl_js/mouse_event.js"></script>
+
+
+
+</body>
+
+</html>
